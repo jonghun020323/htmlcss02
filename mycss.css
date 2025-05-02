@@ -3,6 +3,7 @@ html,body{
     font-optical-sizing: auto;
     font-weight:  weight;
     font-style: normal;
+    color:green;
 }
 
 aside#left{
@@ -22,4 +23,20 @@ aside#right{
 }
 footer{
     clear:both;
+}
+*{
+    color:green;
+}
+ul.nav{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    padding: 10px 0;
+}
+ul.nav li{
+    display:inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 10px;
 }
